@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="hero">
+  <div class="hero-content">
+    <h1>Take Control of Your Spending</h1>
+    <p>Track your expenses, visualize your habits, and boost your financial productivity with our Personal Expense Tracker.</p>
+    <div class="buttons">
+      <a href="{% url 'login' %}" class="btn btn-login">Login</a>
+      <a href="{% url 'register' %}" class="btn btn-register">Register</a>
+    </div>
+  </div>
+</div>
+{% endblock %}

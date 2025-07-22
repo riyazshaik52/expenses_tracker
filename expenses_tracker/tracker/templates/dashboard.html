@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="dashboard-container">
+  <div class="dashboard-header">
+    <h2>Welcome, {{ user.username }}!</h2>
+    <div class="dashboard-actions">
+      <a href="{% url 'add_expense' %}" class="btn btn-add">Add Expense</a>
+      <a href="{% url 'logout' %}" class="btn btn-logout">Logout</a>
+    </div>
+  </div>
+
+  <div class="charts">
+    <div class="chart-card">
+      <h3>Category-wise Spending</h3>
+      <canvas id="pieChart"></canvas>
+    </div>
+    <div class="chart-card">
+      <h3>Expenses Over Time</h3>
+      <canvas id="lineChart"></canvas>
+    </div>
+  </div>
+
+  <div class="expense-list">
+    <h3>Your Expenses</h3>
+    {% for expense in expenses %}
+    <div class="expense-card">
+      <div>
+        <strong>{{ expense.name }}</strong> - ₹{{ expense.amount }} ({{ expense.category }})
+        <br>
+        <small>{{ expense.date }} - {{ expense.description }}</small>
+      </div>
+      <form method="POST" action="{% url 'delete_expense' expense.id %}">
+        {% csrf_token %}
+        <button type="submit" class="btn-delete">Remove</button>
+      </form>
+    </div>
+    {% empty %}
+    <p>No expenses added yet.</p>
+    {% endfor %}
+  </div>
+</div>
+
+<!-- Chart.js CDN -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<!-- Django context data -->
+<script>
+  const categoryData = JSON.parse('{{ category_data|safe }}');
+  const trendData = JSON.parse('{{ trend_data|safe }}');
+</script>
+
+<!-- Chart rendering script -->
+<script src="{% static 'js/chart.js' %}"></script>
+{% endblock %}
