@@ -54,29 +54,38 @@ This project allows users to:
 5. Run the server
     python manage.py runserver
 
+---
+   
 Sample Screenshot 
+
+
  <img width="1900" height="863" alt="image" src="https://github.com/user-attachments/assets/9549afe5-b001-47a3-b49e-92d19eccdee5" />
 
  <img width="1896" height="868" alt="SS" src="https://github.com/user-attachments/assets/b149c7ea-65f9-44fa-a250-f930bd3648c9" />
 
+---
  
 📁 My Django Skills Demonstrated
-  ✅ Model–View–Template (MVT) architecture
-  ✅ Django Forms and CSRF protection
-  ✅ Static files & media integration
-  ✅ Clean URL routing and modular app structure
-  ✅ Integration of JavaScript libraries in Django templates
-  ✅ Efficient use of Django ORM for data retrieval and filtering
+- ✅ Model–View–Template (MVT) architecture
+- ✅ Django Forms and CSRF protection
+- ✅ Static files & media integration
+- ✅ Clean URL routing and modular app structure
+- ✅ Integration of JavaScript libraries in Django templates
+- ✅ Efficient use of Django ORM for data retrieval and filtering
+
+---
 
 📌 Future Improvements
-  1. Export to CSV/PDF
-  2. Add budget alerts
-  3. Category filters and sorting
-  4. Monthly reports
+- 1. Export to CSV/PDF
+- 2. Add budget alerts
+- 3. Category filters and sorting
+- 4. Monthly reports
+
+---
 
 🙋‍♂️ About Me
 Shaik Riyaz
-💼 Python & Django Developer | Web Enthusiast
-📬 shaikriyaz1574@gmail.com
-🔗 https://www.linkedin.com/in/riyaz52/
+- 💼 Python & Django Developer | Web Enthusiast
+- 📬 shaikriyaz1574@gmail.com
+- 🔗 https://www.linkedin.com/in/riyaz52/
 
