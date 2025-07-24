@@ -66,16 +66,18 @@ This project allows users to:
 ---
  
 ## 📁 My Django Skills Demonstrated
-- ✅ Model–View–Template (MVT) architecture
-- ✅ Django Forms and CSRF protection
-- ✅ Static files & media integration
-- ✅ Clean URL routing and modular app structure
-- ✅ Integration of JavaScript libraries in Django templates
-- ✅ Efficient use of Django ORM for data retrieval and filtering
+
+✅ Model–View–Template (MVT) architecture
+✅ Django Forms and CSRF protection
+✅ Static files & media integration
+✅ Clean URL routing and modular app structure
+✅ Integration of JavaScript libraries in Django templates
+✅ Efficient use of Django ORM for data retrieval and filtering
 
 ---
 
 ## 📌 Future Improvements
+
  - Export to CSV/PDF
  - Add budget alerts
  - Category filters and sorting
@@ -85,9 +87,10 @@ This project allows users to:
 
 ## 🙋‍♂️ About Me
 Shaik Riyaz
-- 💼 Python & Django Developer | Web Enthusiast
-- 📬 shaikriyaz1574@gmail.com
-- 🔗 https://www.linkedin.com/in/riyaz52/
+
+💼 Python & Django Developer | Web Enthusiast
+📬 shaikriyaz1574@gmail.com
+🔗 https://www.linkedin.com/in/riyaz52/
 
 ---
 
