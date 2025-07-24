@@ -56,7 +56,7 @@ This project allows users to:
 
 ---
    
-Sample Screenshot 
+## Sample Screenshot 
 
 
  <img width="1900" height="863" alt="image" src="https://github.com/user-attachments/assets/9549afe5-b001-47a3-b49e-92d19eccdee5" />
@@ -65,27 +65,34 @@ Sample Screenshot
 
 ---
  
-📁 My Django Skills Demonstrated
-- ✅ Model–View–Template (MVT) architecture
-- ✅ Django Forms and CSRF protection
-- ✅ Static files & media integration
-- ✅ Clean URL routing and modular app structure
-- ✅ Integration of JavaScript libraries in Django templates
-- ✅ Efficient use of Django ORM for data retrieval and filtering
+## 📁 My Django Skills Demonstrated
+✅ Model–View–Template (MVT) architecture
+✅ Django Forms and CSRF protection
+✅ Static files & media integration
+✅ Clean URL routing and modular app structure
+✅ Integration of JavaScript libraries in Django templates
+✅ Efficient use of Django ORM for data retrieval and filtering
 
 ---
 
-📌 Future Improvements
-- 1. Export to CSV/PDF
-- 2. Add budget alerts
-- 3. Category filters and sorting
-- 4. Monthly reports
+## 📌 Future Improvements
+ - Export to CSV/PDF
+ - Add budget alerts
+ - Category filters and sorting
+ - Monthly reports
 
 ---
 
-🙋‍♂️ About Me
+## 🙋‍♂️ About Me
 Shaik Riyaz
-- 💼 Python & Django Developer | Web Enthusiast
-- 📬 shaikriyaz1574@gmail.com
-- 🔗 https://www.linkedin.com/in/riyaz52/
+💼 Python & Django Developer | Web Enthusiast
+📬 shaikriyaz1574@gmail.com
+🔗 https://www.linkedin.com/in/riyaz52/
+
+---
+
+## ⭐️ Show Your Support
+  If you like this project:
+  
+  Give a ⭐️ on GitHub
 
