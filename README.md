@@ -94,7 +94,9 @@ This project allows users to:
 Shaik Riyaz
 
 💼 Python & Django Developer | Web Enthusiast
+
 📬 shaikriyaz1574@gmail.com
+
 🔗 https://www.linkedin.com/in/riyaz52/
 
 ---
